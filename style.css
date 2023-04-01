@@ -1,0 +1,101 @@
+body {
+			font-family: Arial, sans-serif;
+			background-color: #f7f7f7;
+			margin: 10;
+			padding: 0;
+		}
+		h1, h2 {
+			text-align: center;
+			margin-top: 50px;
+			color: #333;
+		}
+		img {
+			display: block;
+			margin: 0 auto;
+			border-radius: 50%;
+			box-shadow: 0 0 5px #888;
+			width: 200px;
+			height: 200px;
+			object-fit: cover;
+		}
+		p {
+			text-align: center;
+			margin: 20px;
+			line-height: 1.5;
+			font-size: 16px;
+			color: #666;
+		
+  shape-margin: 7%;
+}
+			.container {
+			width: 50%;
+			margin: 0 auto;
+			background-color: #bfe6ff;
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: 0 0 10px #888;
+			text-align: center;
+		}
+		.box { 
+			width: 50%;
+			margin: 0 auto;
+			background-color: white;
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: 0 0 10px #888;
+			text-align: center;
+		}
+		 
+
+		ul {
+			list-style: none;
+			padding: 0;
+			margin: 0 auto;
+			width: 50%;
+			text-align: center;
+		}
+		li {
+			display: inline-block;
+			margin: 10px;
+			font-size: 20px;
+		}
+		a {
+			text-decoration: none;
+			color: #333;
+		}
+		a:hover {
+			color: #06c;
+		}
+		.quote::before {
+  content: "\201C";
+  color: #ccc;
+  font-family: sans-serif, serif;
+  font-size: 270px;
+  height: 82px;
+  line-height: 1;
+  opacity: .9;
+  position: absolute;
+  top: -48px;
+  left: 0;
+  z-index: 1;
+}
+
+ @media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
